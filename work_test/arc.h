@@ -3,7 +3,7 @@
 
 #include <memory>
 #include <glm/glm.hpp>
-#include<glm/gtc/quaternion.hpp>
+#include <glm/gtc/quaternion.hpp>
 
 class MekArc2D
 {

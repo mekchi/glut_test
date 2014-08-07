@@ -4,9 +4,7 @@
 #include <string>
 #include <GL/glew.h>
 
-
 #define ATTR_VERTEX 3
-
 
 
 class Shader

@@ -6,7 +6,8 @@
 
 struct Particle
 {
-    std::unique_ptr<glm::vec3> position;
+    std::unique_ptr<glm::vec3[]> position;
+    std::unique_ptr<glm::quat[]> rotation;
 
 };
 

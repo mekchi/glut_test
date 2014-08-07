@@ -7,11 +7,16 @@
 namespace mekchi
 {
 
-struct Object
+struct Objects
 {
-    glm::vec3 position;
-    glm::quat rotation;
+    std::unique_ptr<glm::vec3[]> position;
 };
+
+//struct Object
+//{
+//    glm::vec3 position;
+//    glm::quat rotation;
+//};
 
 }
 
