@@ -7,6 +7,7 @@
 struct Objects
 {
     std::unique_ptr<glm::vec3[]> position;
+
 };
 
 #endif // SYSTEM_GLOBAL_H
